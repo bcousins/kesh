@@ -1,10 +1,6 @@
 <?php
-/*
-	News Script thingy
-*/
 
-// Method: POST, PUT, GET etc a-la function
-// Data: array("param" => "value") ==> index.php?param=value
+// A-la function CallAPI() will call the API method we are implemeting, which according to the RP API is Railpage.news.submit
 
 function CallAPI($method, $url, $data = false)
 {
